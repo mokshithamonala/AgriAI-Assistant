@@ -1,0 +1,23 @@
+# Python
+venv/
+.venv/
+venv312/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+
+# Database and logs
+*.db
+*.log
+
+# IDE
+.vscode/

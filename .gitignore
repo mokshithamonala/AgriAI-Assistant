@@ -1,0 +1,63 @@
+# Local environment variables (Crucial!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python / Backend ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+sql_app.db
+temp_audio/
+# Vector Database & Raw Data
+agri_advisory_backend/chroma_db_storage/
+agri_advisory_backend/data_sources/    
+
+# Node / Frontend ignores
+node_modules/
+/dist
+/build
+.DS_Store
+# Additional security and cleanup
+.env
+.env.*
+!.env.example
+**/venv/
+**/.venv/
+**/venv312/
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/*.db
+**/*.log
+.vscode/
+
+# Python virtual environments
+**/venv/
+**/.venv/
+**/venv312/
+**/.venv312/
+
+# Node dependencies
+**/node_modules/
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+
+# Environment secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Database and logs
+**/*.db
+**/*.log
