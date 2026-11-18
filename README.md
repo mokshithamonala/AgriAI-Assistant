@@ -88,7 +88,7 @@ npm run dev
 
 **5. Open the application**
 
-Visit [http://localhost:3000](http://localhost:3000) in your browser.
+Visit  in your browser.
 
 ## 📁 Project Structure
 
